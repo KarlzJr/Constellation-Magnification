@@ -1,0 +1,60 @@
+/*
+Author: Alejandra Sicairos
+
+Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
+*/
+body{
+    background-image: url(../img/telescope-hill.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* Styles The dropdown button */
+.dropbtn {
+  background-color: #020075;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Adds some highlight to options when hovering over (Grey)*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* The dropdown container */
+.dropdown {
+  float: center;
+  overflow: hidden;
+}
+
+/*Hides and shows options on hover*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*This lines up to links in a colum */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*This shows the options*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*This gives some highlight to the actual menu when hovering*/
+.dropdown:hover .dropbtn {
+  background-color: #3f0182;
+}
