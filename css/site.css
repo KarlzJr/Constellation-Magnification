@@ -15,6 +15,10 @@ Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
     }
 */
 
+h1 {
+    text-align: center;
+}
+
 /* Styles The dropdown button */
 .dropbtn {
   background-color: #020075;
