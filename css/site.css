@@ -94,10 +94,12 @@ a {
     color:black;
     padding: 3px;
     background-color: #b6bab7;
+    border-radius: 8px;
 }
 
 #back a:hover{
   text-decoration: none;
   color: inherit;
   background-color: gray;
+  border-radius: 8px;
 }
