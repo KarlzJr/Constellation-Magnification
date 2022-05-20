@@ -28,7 +28,9 @@ body{
 }
 
 #carousel .slide {
-    text-align-last: center;
+    text-align-last: center; /*centers text in the image*/
+    font-size: 20px;
+    /* text-align: bottom; */
     float: left;
     list-style-type: none;
     width: 720px;
@@ -40,7 +42,7 @@ body{
   text-align: center;
  } */
 /* helper css, since we don't have images */
-.slide1 {background: #E0BBE4;}
+.slide1 {background-image: url("../img/image1.webp");}
 .slide2 {background: #957DAD;}
 .slide3 {background: #D291BC;}
 .slide4 {background: #FEC8D8;}
