@@ -28,6 +28,7 @@ body{
 }
 
 #carousel .slide {
+    text-align-last: center;
     float: left;
     list-style-type: none;
     width: 720px;
@@ -35,6 +36,9 @@ body{
     color: black; /*Text color in the image*/
 }
 
+/* #carousel .right-text{
+  text-align: center;
+ } */
 /* helper css, since we don't have images */
 .slide1 {background: #E0BBE4;}
 .slide2 {background: #957DAD;}

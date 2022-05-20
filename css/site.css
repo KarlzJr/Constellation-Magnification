@@ -16,11 +16,11 @@ Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
 */
 html {
   background-color: black;
-  color: #967bb6; /*Lavender Color*/
 }
 
 h1 {
     text-align: center;
+    color: #967bb6; /*Lavender Color*/
 }
 
 /* Styles The dropdown button */
@@ -95,6 +95,7 @@ a {
     font-size: 30px;
     text-align: center;
     background-color: #b6bab7;
+    color: black;
 }
 
 #back a{
