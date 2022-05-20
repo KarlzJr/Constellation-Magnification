@@ -1,11 +1,14 @@
-'use strict';
+// Summary: Slider
+// Description: Loops through images on the website
+// @author Alejandra Sicairos and @credits - https://www.youtube.com/watch?v=KkzVFB3Ba_o
+// @created  5.19.22
 
 $(function() {
 
     //settings for slider
     var width = 720;
     var animationSpeed = 1000;
-    var pause = 1000;
+    var pause = 3000;
     var currentSlide = 1;
 
     //cache DOM elements
