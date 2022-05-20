@@ -14,9 +14,13 @@ Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
         background-size: cover;
     }
 */
+html {
+  background-color: black;
+}
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 /* Styles The dropdown button */
