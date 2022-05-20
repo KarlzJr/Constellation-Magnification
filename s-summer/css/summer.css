@@ -21,6 +21,7 @@ Author: Alejandra Sicairos
     list-style-type: none;
     width: 720px;
     height: 400px;
+    color: black; /*Text color in the image*/
 }
 
 /* helper css, since we don't have images */
