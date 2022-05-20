@@ -35,5 +35,5 @@ $(function() {
     $images
         .on('mouseenter', pauseSlider)
         .on('mouseleave', startSlider);
-    startSlider();
+    //startSlider();
 });
