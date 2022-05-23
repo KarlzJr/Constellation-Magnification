@@ -17,6 +17,9 @@ Author: Alejandra Sicairos
 }
 
 #carousel .slide {
+    text-align-last: center; /*centers text in the image*/
+    font-size: 20px;
+    /* text-align: bottom; */
     float: left;
     list-style-type: none;
     width: 720px;
