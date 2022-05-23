@@ -59,7 +59,7 @@ Author: Alejandra Sicairos
   animation: animStar 100s linear infinite;
 }
 #stars2:after {
-  content: " ";
+  content: "e ";
   position: absolute;
   top: 2000px;
   width: 2px;
