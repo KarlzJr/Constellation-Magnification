@@ -6,7 +6,7 @@
 $(function() {
 
     //settings for slider
-    var width = 720;
+    var width = 800;
     var animationSpeed = 1000;
     var pause = 3000;
     var currentSlide = 1;

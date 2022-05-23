@@ -14,7 +14,7 @@ body{
 */
 
 #carousel {
-    width: 720px;
+    width: 800px;
     height: 400px;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@ body{
     /* text-align: bottom; */
     float: left;
     list-style-type: none;
-    width: 720px;
+    width: 800px;
     height: 400px;
     color: black; /*Text color in the image*/
 }
