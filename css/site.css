@@ -1,0 +1,115 @@
+/*
+Author: Alejandra Sicairos
+
+Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
+*/
+
+/*
+    //background image ready to be used
+    body{
+        background-image: url(../img/telescope-hill.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+*/
+html {
+  background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #967bb6; /*Lavender Color*/
+}
+
+/* Styles The dropdown button */
+.dropbtn {
+  background-color: #020075;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Adds some highlight to options when hovering over (Grey)*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* The dropdown container */
+.dropdown {
+  float: center;
+  overflow: hidden;
+}
+
+/*Hides and shows options on hover*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*This lines up to links in a colum */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*This shows the options*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*This gives some highlight to the actual menu when hovering*/
+.dropdown:hover .dropbtn {
+  background-color: #3f0182;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2 rem;            /* Footer height */
+  color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: gray;
+}
+
+/*Removed annoying Purple visited color*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Styling for the links for the seasons*/
+#options{
+    font-size: 30px;
+    text-align: center;
+    background-color: #b6bab7;
+    color: black;
+}
+
+#back a{
+    font-size: 20px;
+    text-align: left;
+    color:black;
+    padding: 3px;
+    background-color: #b6bab7;
+    border-radius: 8px;
+}
+
+#back a:hover{
+  text-decoration: none;
+  color: inherit;
+  background-color: gray;
+  border-radius: 8px;
+}
