@@ -42,6 +42,7 @@ body{
   text-align: center;
  } */
 /* helper css, since we don't have images */
+/* .slide1 {background-image: url("./img/leo.png");} */
 .slide1 {background: #E0BBE4;}
 .slide2 {background: #957DAD;}
 .slide3 {background: #D291BC;}
