@@ -24,6 +24,14 @@ body{
   color: white;
 }
 
+.column a{
+  color: white;
+}
+
+.column a:hover {
+    color: gray;
+}
+
 .row:after {
     content: "";
     display: table;

@@ -93,13 +93,14 @@ a {
     color: black;
 }
 
-#back a{
-    font-size: 20px;
+#options a{
     text-align: left;
     color:black;
-    padding: 3px;
-    background-color: #b6bab7;
-    border-radius: 8px;
+}
+#options a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: gray;
 }
 
 #back a:hover{
