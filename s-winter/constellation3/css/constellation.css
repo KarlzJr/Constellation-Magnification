@@ -19,6 +19,20 @@ footer {
   color: black;
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.data{
+  color: white;
+  font-size: 20px;
+  column-count: 2;
+  column-fill: balance;
+  column-gap: normal;
+}
+
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
