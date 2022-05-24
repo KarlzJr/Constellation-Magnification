@@ -32,8 +32,6 @@ $(function() {
         clearInterval(interval);
     }
 
-    $images
-        .on('mouseenter', pauseSlider)
-        .on('mouseleave', startSlider);
+    // $images.on('mouseenter', pauseSlider).on('mouseleave', startSlider);
     startSlider();
 });
