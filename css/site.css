@@ -4,16 +4,6 @@ Author: Alejandra Sicairos
 Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
 */
 
-/*
-    //background image ready to be used
-    body{
-        background-image: url(../img/telescope-hill.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-    }
-*/
 html {
   background-color: black;
 }
@@ -93,7 +83,9 @@ a:hover {
 /*Removed annoying Purple visited color*/
 a {
     text-decoration: none;
-    color: black;
+    /* color: white; */
+    /* font-size: 20px; */
+    vertical-align: middle;
 }
 
 /*Styling for the links for the seasons*/

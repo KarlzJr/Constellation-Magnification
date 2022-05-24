@@ -12,9 +12,24 @@ body{
     background-size: cover;
 }
 */
+.column {
+    float: left;
+    width: 50%;
+    color: white;
+}
+
+.column p{
+  font-size: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 #carousel {
-    width: 800px;
+    width: 720px;
     height: 400px;
     overflow: hidden;
 }
@@ -33,7 +48,7 @@ body{
     /* text-align: bottom; */
     float: left;
     list-style-type: none;
-    width: 800px;
+    width: 720px;
     height: 400px;
     color: black; /*Text color in the image*/
 }
