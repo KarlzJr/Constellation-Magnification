@@ -15,11 +15,13 @@ body{
 .column {
     float: left;
     width: 50%;
-    color: white;
 }
 
 .column p{
-  font-size: 25px;
+  float: middle;
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
 
 .row:after {
@@ -50,7 +52,7 @@ body{
     list-style-type: none;
     width: 720px;
     height: 400px;
-    color: black; /*Text color in the image*/
+    color: gray; /*Text color in the image*/
 }
 
 /* #carousel .right-text{
@@ -58,10 +60,10 @@ body{
  } */
 /* helper css, since we don't have images */
 /* .slide1 {background-image: url("./img/leo.png");} */
-.slide1 {background: #E0BBE4;}
-.slide2 {background: #957DAD;}
-.slide3 {background: #D291BC;}
-.slide4 {background: #FEC8D8;}
+.slide1 {background: transparent;}
+.slide2 {background: transparent;}
+.slide3 {background: transparent;}
+.slide4 {background: transparent;}
 
 
 #stars {

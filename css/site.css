@@ -4,12 +4,9 @@ Author: Alejandra Sicairos
 Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
 */
 
-html {
-  background-color: black;
-}
-
 h1 {
     text-align: center;
+    font-size: 40px;
     color: #967bb6; /*Lavender Color*/
 }
 
@@ -114,6 +111,7 @@ a {
 
 /* Stars on the screen */
 html {
+  background-color: black;
   height: 100%;
   /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
   overflow: hidden;
