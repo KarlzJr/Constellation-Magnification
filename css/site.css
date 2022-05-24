@@ -23,6 +23,12 @@ h1 {
     color: #967bb6; /*Lavender Color*/
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
 /* Styles The dropdown button */
 .dropbtn {
   background-color: #020075;
