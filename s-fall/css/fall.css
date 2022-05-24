@@ -12,10 +12,10 @@ body{
     background-size: cover;
 }
 */
+
 .column {
     float: left;
     width: 50%;
-    font-size: 30px;
     color: white;
 }
 
