@@ -15,6 +15,8 @@ body{
 .column {
     float: left;
     width: 50%;
+    font-size: 30px;
+    color: white;
 }
 
 .column p{
