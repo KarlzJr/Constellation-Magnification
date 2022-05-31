@@ -1,6 +1,10 @@
 /*
 Author: Alejandra Sicairos
 */
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
 .column {
     float: left;
     width: 50%;

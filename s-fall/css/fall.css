@@ -12,6 +12,11 @@ body{
     background-size: cover;
 }
 */
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
 .column {
     float: left;
     width: 50%;
