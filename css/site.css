@@ -4,6 +4,9 @@ Author: Alejandra Sicairos
 Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
 */
 
+html{
+    font-family: 'Roboto Mono', monospace;
+}
 h1 {
     text-align: center;
     font-size: 40px;
