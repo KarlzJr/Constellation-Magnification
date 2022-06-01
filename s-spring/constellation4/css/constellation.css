@@ -2,8 +2,28 @@
 Author: Alejandra Sicairos
 */
 
+.column {
+    float: left;
+    width: 50%;
+    color: white;
+    font-size: 12px;
+}
+
+.column p{
+  float: middle;
+  text-align: left;
+  color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 html {
   background-color: black;
+  font-family: 'Roboto Mono', monospace;\
 }
 
 h1 {
