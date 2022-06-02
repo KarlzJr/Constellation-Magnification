@@ -1,6 +1,35 @@
 /*
 Author: Alejandra Sicairos
 */
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column p{
+  float: middle;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.column a{
+  color: white;
+}
+
+.column a:hover {
+    color: gray;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 #carousel {
     width: 720px;
@@ -24,21 +53,41 @@ Author: Alejandra Sicairos
     list-style-type: none;
     width: 720px;
     height: 400px;
-    color: black; /*Text color in the image*/
+    color: gray; /*Text color in the image*/
 }
 
 /* helper css, since we don't have images */
-.slide1 {background: #E0BBE4;}
-.slide2 {background: #957DAD;}
-.slide3 {background: #D291BC;}
-.slide4 {background: #FEC8D8;}
-.slide5 {background: #FFDFD3;}
+.slide1 {background: transparent;}
+.slide2 {background: transparent;}
+.slide3 {background: transparent;}
+.slide4 {background: transparent;}
 
 html {
   height: 100%;
   /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
   overflow: hidden;
 }
+
+:root {
+  cursor: none;
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
+:root:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 10vmax at var(--cursorX) var(--cursorY),
+    rgba(0,0,0,0) 0%,
+    rgba(50,50,50,.5) 80%,
+    rgba(0,0,0,.95) 100%
+  )
+}
+
 
 #stars {
 	content:"e";

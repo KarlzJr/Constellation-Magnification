@@ -4,10 +4,20 @@ Author: Alejandra Sicairos
 Some credit to: https://www.w3schools.com/css/css_dropdowns.asp
 */
 
+html{
+    font-family: 'Roboto Mono', monospace;
+}
 h1 {
     text-align: center;
     font-size: 40px;
     color: #967bb6; /*Lavender Color*/
+}
+
+h4{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  color: white;
 }
 
 img{
@@ -16,6 +26,13 @@ img{
   margin-right: auto;
   width: auto;
 }
+
+#heading p{
+    text-align-last: center; /*centers text in the image*/
+    font-size: 20px;
+    color: gray;
+}
+
 /* Styles The dropdown button */
 .dropbtn {
   background-color: #020075;
@@ -69,6 +86,7 @@ footer {
   width: 100%;
   height: 2 rem;            /* Footer height */
   color: black;
+  font-size: 40px;
 }
 
 a:hover {

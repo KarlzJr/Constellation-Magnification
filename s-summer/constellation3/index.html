@@ -7,10 +7,18 @@
 		<script src="js/constellation.js" defer></script>
 		<link rel="stylesheet" type="text/css" href=".../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/constellation.css">
+		@import
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div id='stars'></div>
+		<div id='stars2'></div>
+		<div id='stars3'></div>
+
 		<h1>Libra Constellation</h1>
-		<div class="data">
+		<div class="column">
 			Best seen in June at 9 p.m, Libra is a simple shaped constellation that is
 			better off found if using more recognizable constellations to navigate.
 			First look for the Big Dipper. West of the Big Dipper, there is a
@@ -35,8 +43,10 @@
 				<li>Visible between latitudes between 65 and minus 90</li>
 			</ul>
 		</div>
-		<div id="image">
-				<img src="./img/libra.jpg">
+		<div class="column">
+			<div id="image"><img src="./img/libra.png"></div>
+			<button>Get Daily Horoscope</button>
+			<div id="output"></div>
 		</div>
 	</body>
 	<footer>

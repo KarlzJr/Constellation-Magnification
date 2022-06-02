@@ -7,10 +7,18 @@
 		<script src="js/constellation.js" defer></script>
 		<link rel="stylesheet" type="text/css" href=".../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/constellation.css">
+		@import
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div id='stars'></div>
+		<div id='stars2'></div>
+		<div id='stars3'></div>
+
 		<h1>Virgo Constellation</h1>
-		<div class="data">
+		<div class="column">
 			Best seen in May at 9 p.m, Virgo is a more simple constellation to spot in
 			the night sky. First look for the Big Dipper. West of the Big Dipper,
 			there is a constellation called Bootes that contains a yellowish, bright
@@ -36,8 +44,10 @@
 				<li>Visible between latitudes 80 and minus 80 degrees</li>
 			</ul>
 		</div>
-		<div id="image">
-				<img src="./img/virgo.jpg">
+		<div class="column">
+			<div id="image"><img src="./img/virgo.png"></div>
+			<button>Get Daily Horoscope</button>
+			<div id="output"></div>
 		</div>
 	</body>
 	<footer>

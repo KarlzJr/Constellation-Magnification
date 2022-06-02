@@ -6,25 +6,51 @@
 		<script src="js/winter.js" defer></script>
 		<link rel="stylesheet" type="text/css" href="../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/winter.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		@import
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Winter Constellations</h1>
-		<!-- NOTE: For help with the sliding:
-		jquery slider: https://www.youtube.com/watch?v=KkzVFB3Ba_o
-		-->
 		<!-- star background -->
 		<div id='stars'></div>
 		<div id='stars2'></div>
 		<div id='stars3'></div>
 
-		<div id="carousel">
-			<ul class="images">
-				<li class="slide slide1"><a href="constellation1/index.html">Gemini<br></a></li>
-				<li class="slide slide2"><a href="constellation2/index.html">Taurus<br></a></li>
-				<li class="slide slide1"><a href="constellation1/index.html">Gemini<br></a></li>
-			</ul>
+		<div id="heading">
+			<h1>Winter Constellations</h1>
+			<p>Find them all!</p>
 		</div>
+
+		<div class="column">
+			<a href="constellation1/index.html"><img src="img/gemini.png"></a>
+		</div>
+		<div class="column">
+			<a href="constellation2/index.html"><img src="img/taurus.png"></a>
+		</div>
+		<!-- NOTE: For help with the sliding:
+		jquery slider: https://www.youtube.com/watch?v=KkzVFB3Ba_o
+		-->
+
+		<!-- NOTE: Old Prototype used a slider we changed our minds and imporved the design
+		<div class="column">
+			<div id="carousel">
+				<ul class="images">
+					<li class="slide slide1"><img src="img/gemini.png">Gemini</li>
+					<li class="slide slide2"><img src="img/taurus.png">Taurus</li>
+					<li class="slide slide1"><img src="img/gemini.png">Gemini</li>
+				</ul>
+			</div>
+		</div>
+		<div class="column">
+			<h4>Learn More:</h4>
+			<p>
+				<a href="constellation1/index.html">Gemini Constellation<br></a>
+				<a href="constellation2/index.html">Taurus Constellation<br></a>
+			</p>
+		</div>
+		-->
+
 	</body>
 	<footer>
 		<div id="options">

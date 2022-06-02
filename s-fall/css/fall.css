@@ -12,9 +12,15 @@ body{
     background-size: cover;
 }
 */
+
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
 .column {
     float: left;
     width: 50%;
+    color: white;
 }
 
 .column p{
@@ -63,6 +69,8 @@ body{
     color: gray; /*Text color in the image*/
 }
 
+footer
+
 /* #carousel .right-text{
   text-align: center;
  } */
@@ -72,6 +80,29 @@ body{
 .slide2 {background: transparent;}
 .slide3 {background: transparent;}
 .slide4 {background: transparent;}
+
+
+/* FLASHLIGHT CSS */
+/* Flashlight Overlay */
+:root {
+  cursor: none;
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
+:root:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 10vmax at var(--cursorX) var(--cursorY),
+    rgba(0,0,0,0) 0%,
+    rgba(50,50,50,.5) 80%,
+    rgba(0,0,0,.95) 100%
+    )
+}
 
 
 #stars {

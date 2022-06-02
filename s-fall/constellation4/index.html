@@ -7,13 +7,18 @@
 		<script src="js/constellation.js" defer></script>
 		<link rel="stylesheet" type="text/css" href=".../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/constellation.css">
+		<@import
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Aries Constellation</h1>
 		<div id='stars'></div>
 		<div id='stars2'></div>
 		<div id='stars3'></div>
-		<div class="data">
+
+		<h1>Aries Constellation</h1>
+		<div class="column">
 			Best seen in December around 9 p.m., Aries is a simple constellation
 			composed of only four stars, but can be easily found if the stargazer can
 			find Orion’s belt. Orion’s belt is made up of three stars in a straight
@@ -35,9 +40,12 @@
 				<li>Visible between latitudes 90 degrees and -60 degrees</li>
 			</ul>
 		</div>
-		<div id="image">
-				<img src="./img/aries.jpg">
-		</div>
+
+	<div class="column">
+		<div id="image"><img src="./img/aries.png"></div>
+			<button>Get Daily Horoscope</button>
+			<div id="output"></div>
+	</div>
 	</body>
 	<footer>
 		<div id="options">

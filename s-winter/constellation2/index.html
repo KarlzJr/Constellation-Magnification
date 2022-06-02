@@ -7,10 +7,18 @@
 		<script src="js/constellation.js" defer></script>
 		<link rel="stylesheet" type="text/css" href=".../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/constellation.css">
+		@import
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div id='stars'></div>
+		<div id='stars2'></div>
+		<div id='stars3'></div>
+
 		<h1>Taurus Constellation</h1>
-		<div class="data">
+		<div class="column">
 			Best seen in January around 9 p.m, Taurus is one of the easiest zodiac
 			constellations to find in the night sky. All that is needed is finding
 			Orions’s belt or the Pleiades. Orion’s belt is made up of three stars in
@@ -33,9 +41,11 @@
 				<li>Visible between latitudes 90 degrees and minus 65 degrees</li>
 			</ul>
 		</div>
-		<div id="image">
-				<img src="./img/taurus.jpg">
-		</div>
+	<div class="column">
+		<div id="image"><img src="./img/taurus.png"></div>
+		<button>Get Daily Horoscope</button>
+		<div id="output"></div>
+	</div>
 	</body>
 	<footer>
 		<div id="options">

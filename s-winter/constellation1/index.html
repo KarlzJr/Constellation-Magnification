@@ -7,14 +7,17 @@
 		<script src="js/constellation.js" defer></script>
 		<link rel="stylesheet" type="text/css" href=".../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/constellation.css">
-	</head>
+		@import
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 	<body>
 		<h1>Gemini Constellation</h1>
 		<!-- star background -->
 		<div id='stars'></div>
 		<div id='stars2'></div>
 		<div id='stars3'></div>
-		<div class="data">
+		<div class="column">
 			Best seen in February around 9 p.m, Gemini is one of the easiest zodiac
 			constellations to find. One method is just simply locating the two of its
 			brightest stars, Castor and Pollux, with help from the Big Dipper. In
@@ -37,8 +40,10 @@
 				<li>Visible between latitudes 90 degrees and minus 60 degrees</li>
 			</ul>
 		</div>
-		<div id="image">
-				<img src="./img/gemini.jpg">
+		<div class="column">
+			<div id="image"><img src="./img/gemini.png"></div>
+			<button>Get Daily Horoscope</button>
+			<div id="output"></div>
 		</div>
 	</body>
 	<footer>
