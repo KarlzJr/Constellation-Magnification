@@ -20,6 +20,20 @@ Author: Alejandra Sicairos
     clear: both;
 }
 
+button{
+    font-family: 'Roboto Mono', monospace;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: #b0b0b0;
+  color: white;
+}
+
 html {
   background-color: black;
   font-family: 'Roboto Mono', monospace;\
